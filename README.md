@@ -1,10 +1,12 @@
 
-# Python Object Initialization
+# Object Initialization
 
 ## Introduction
 Now that we've begun to see OOP and class structures, we're going to investigate the __init__ method more. The __init__ method allows classes to have default behaviors and attributes.
 
 ## Objectives
+
+You will be able to: 
 * Define custom __init__ methods for object initialization
 * Create instance variables in the __init__ method
 * Use default arguments in the __init__ method
@@ -35,18 +37,6 @@ bob.name
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-12-6a5ddef64c8c> in <module>()
-    ----> 1 bob.name
-    
-
-    AttributeError: 'Person' object has no attribute 'name'
-
-
-
 ```python
 bob.set_name('Bob')
 ```
@@ -55,13 +45,6 @@ bob.set_name('Bob')
 ```python
 bob.name
 ```
-
-
-
-
-    'Bob'
-
-
 
 Using the __init__ method allows us to set attributes on instantiation.
 
@@ -80,10 +63,6 @@ print(bob.name)
 print(bob.job)
 ```
 
-    Bob
-    Carpenter
-
-
 Written like this, these arguments then become required:
 
 
@@ -91,19 +70,7 @@ Written like this, these arguments then become required:
 someone = Person()
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-20-42fc89f0c051> in <module>()
-    ----> 1 someone = Person()
-    
-
-    TypeError: __init__() missing 2 required positional arguments: 'name' and 'job'
-
-
-# Setting default arguments in the __init__ method
+## Setting default arguments in the __init__ method
 To circumvent this, we can also define __init__ to have default arguments. This allows parameters to be specified if desired but are not required.
 
 
@@ -131,22 +98,5 @@ print(bob.name)
 print(bob.job)
 ```
 
-    None
-    None
-    
-    
-    None
-    Carpenter
-    
-    
-    Bob
-    Carpenter
-
-
 ## Summary
 In this lesson you got a brief introduction to the __init__ method and how you can use it to set attributes when objects are initialized, including default parameters.
-
-
-```python
-
-```
