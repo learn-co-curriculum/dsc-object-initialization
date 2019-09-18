@@ -13,7 +13,7 @@ You will be able to:
 
 ## Introducing __init__
 
-By using the `__init__` method, you can initialize instances of objects with defined attributes. Without this, attributes are not defined until other methods are called to populate these fields, or you set attributes manually. This can be problematic. For example, if you had tried to call the `greet_passeneger` method from the previous lab without first setting the driver's first and last attributes, you would have encoutnered an error. Here's another example to demonstrate:
+By using the `__init__` method, you can initialize instances of objects with defined attributes. Without this, attributes are not defined until other methods are called to populate these fields, or you set attributes manually. This can be problematic. For example, if you had tried to call the `greet_passeneger` method from the previous lab without first setting the driver's first and last attributes, you would have encountered an error. Here's another example to demonstrate:
 
 
 ```python
@@ -146,4 +146,4 @@ print(bob.job)
 
 
 ## Summary
-In this lesson you got a brief introduction to the __init__ method and how you can use it to set attributes when objects are initialized, including default parameters.
+In this lesson, you got a brief introduction to the __init__ method and how you can use it to set attributes when objects are initialized, including default parameters.
