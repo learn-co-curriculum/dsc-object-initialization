@@ -7,9 +7,9 @@ Now that you've begun to see OOP and class structures, it's time to investigate 
 ## Objectives
 
 You will be able to: 
-* Define custom __init__ methods for object initialization
-* Create instance variables in the __init__ method
-* Use default arguments in the __init__ method
+- Define custom __init__ methods for object initialization
+- Create instance variables in the __init__ method
+- Use default arguments in the __init__ method
 
 ## Introducing __init__
 
