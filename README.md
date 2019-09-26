@@ -2,10 +2,10 @@
 # Object Initialization
 
 ## Introduction
-Now that you've begun to see OOP and class structures, it's time to investigate the __init__ method more. The __init__ method allows classes to have default behaviors and attributes.
+Now that you've begun to see OOP and class structures, it's time to investigate the __init__ method more. The __init__ method allows classes to have default behaviors and attributes. 
 
 ## Objectives
-
+ 
 You will be able to: 
 - Define custom __init__ methods for object initialization
 - Create instance variables in the __init__ method
