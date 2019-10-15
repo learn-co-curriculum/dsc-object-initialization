@@ -2,16 +2,17 @@
 # Object Initialization
 
 ## Introduction
-Now that you've begun to see OOP and class structures, it's time to investigate the __init__ method more. The __init__ method allows classes to have default behaviors and attributes. 
+Now that you've begun to see OOP and class structures, it's time to investigate the `__init__` method more. The `__init__` method allows classes to have default behaviors and attributes. 
 
 ## Objectives
  
 You will be able to: 
-* Define custom __init__ methods for object initialization
-* Create instance variables in the __init__ method
-* Use default arguments in the __init__ method
+* Define custom `__init__` methods for object initialization
+* Create instance variables in the `__init__` method
+* Use default and positional arguments in the `__init__` method
+* Compare default and positional arguments within Python functions
 
-## Introducing __init__
+## Introducing `__init__`
 
 By using the `__init__` method, you can initialize instances of objects with defined attributes. Without this, attributes are not defined until other methods are called to populate these fields, or you set attributes manually. This can be problematic. For example, if you had tried to call the `greet_passeneger` method from the previous lab without first setting the driver's first and last attributes, you would have encountered an error. Here's another example to demonstrate:
 
@@ -65,7 +66,7 @@ bob.name
 
 
 
-To avoid errors such as this, you can use the __init__ method to set attributes on instantiation.
+To avoid errors such as this, you can use the `__init__` method to set attributes on instantiation.
 
 
 ```python
@@ -98,15 +99,15 @@ someone = Person()
 
     TypeError                                 Traceback (most recent call last)
 
-    <ipython-input-10-1ac56b0c183e> in <module>()
+    <ipython-input-8-1ac56b0c183e> in <module>()
     ----> 1 someone = Person()
     
 
     TypeError: __init__() missing 2 required positional arguments: 'name' and 'job'
 
 
-## Setting default arguments in the __init__ method
-To circumvent this, we can also define __init__ to have default arguments. This allows parameters to be specified if desired but are not required.
+## Setting default arguments in the `__init__` method
+To circumvent this, we can also define `__init__` to have default arguments. This allows parameters to be specified if desired but are not required.
 
 
 ```python
@@ -146,4 +147,4 @@ print(bob.job)
 
 
 ## Summary
-In this lesson, you got a brief introduction to the __init__ method and how you can use it to set attributes when objects are initialized, including default parameters.
+In this lesson, you got a brief introduction to the `__init__` method and how you can use it to set attributes when objects are initialized, including default parameters.
