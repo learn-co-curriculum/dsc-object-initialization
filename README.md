@@ -7,14 +7,13 @@ Now that you've begun to see OOP and class structures, it's time to investigate 
 ## Objectives
  
 You will be able to: 
-* Define custom `__init__` methods for object initialization
+
 * Create instance variables in the `__init__` method
-* Use default and positional arguments in the `__init__` method
-* Compare default and positional arguments within Python functions
+* Use default arguments in the `__init__` method 
 
 ## Introducing `__init__`
 
-By using the `__init__` method, you can initialize instances of objects with defined attributes. Without this, attributes are not defined until other methods are called to populate these fields, or you set attributes manually. This can be problematic. For example, if you had tried to call the `greet_passeneger` method from the previous lab without first setting the driver's first and last attributes, you would have encountered an error. Here's another example to demonstrate:
+By using the `__init__` method, you can initialize instances of objects with defined attributes. Without this, attributes are not defined until other methods are called to populate these fields, or you set attributes manually. This can be problematic. For example, if you had tried to call the `greet_passeneger()` method from the previous lab without first setting the driver's first and last attributes, you would have encountered an error. Here's another example to demonstrate:
 
 
 ```python
